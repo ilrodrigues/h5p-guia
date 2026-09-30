@@ -1,6 +1,6 @@
 # Guia de Funcionalidades H5P
 
-Site HTML estático em português brasileiro com 23 recursos organizados em quatro grupos pedagógicos. Inclui tabelas comparativas, legenda com símbolos e textos, exemplos e links para demonstrações oficiais.
+Site HTML estático em português brasileiro com 37 recursos organizados em quatro grupos pedagógicos. Inclui tabelas comparativas, legenda com símbolos e textos, exemplos e links para demonstrações oficiais.
 
 ## Abrir
 
