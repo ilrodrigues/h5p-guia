@@ -4,7 +4,7 @@ Site HTML estático em português brasileiro com 23 recursos organizados em quat
 
 ## Abrir
 
-Abra `index.html` em um navegador. Os arquivos `index.html` e `styles.css` devem ficar na mesma pasta, junto à pasta `images`, que contém os ícones oficiais dos recursos H5P. Inclua essa pasta na publicação. O site não exige servidor, dependências, JavaScript no navegador ou etapa de compilação para ser publicado.
+Abra `index.html` em um navegador. Os arquivos `index.html`, `styles.css` e `guide.js` devem ficar na mesma pasta, junto à pasta `images`, que contém os ícones oficiais dos recursos H5P. Inclua essa pasta na publicação. O site não exige servidor, dependências ou etapa de compilação para ser publicado. O pequeno script `guide.js` ajusta o cabeçalho fixo à altura do menu; o conteúdo e os grupos expansíveis funcionam sem JavaScript.
 
 ## Publicar no GitHub Pages
 
