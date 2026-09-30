@@ -4,7 +4,7 @@ Site HTML estático em português brasileiro com 23 recursos organizados em quat
 
 ## Abrir
 
-Abra `index.html` em um navegador. Os arquivos `index.html` e `styles.css` devem ficar na mesma pasta. O site não exige servidor, dependências, JavaScript no navegador ou etapa de compilação para ser publicado.
+Abra `index.html` em um navegador. Os arquivos `index.html` e `styles.css` devem ficar na mesma pasta, junto à pasta `images`, que contém os ícones oficiais dos recursos H5P. Inclua essa pasta na publicação. O site não exige servidor, dependências, JavaScript no navegador ou etapa de compilação para ser publicado.
 
 ## Publicar no GitHub Pages
 
@@ -20,7 +20,7 @@ Documentação: https://docs.github.com/en/pages/getting-started-with-github-pag
 
 Edite `catalogo.json` e execute `node build.mjs` para gerar novamente `index.html`. Node.js é necessário apenas para essa regeneração. A aparência é definida em `styles.css`. Inclua a versão atualizada de `index.html` no commit: o GitHub Pages não executa automaticamente esse gerador.
 
-Cada recurso contém: nome em inglês, nome em português, URL oficial, facilidade, preparação, apresentação de informações, prática e feedback, avaliação, possibilidades de Bloom e exemplo. Nas três colunas de classificação, os prefixos são `G` (adequado), `Y` (condicional) e `R` (não oferece diretamente), seguidos de `|` e da explicação.
+Cada recurso contém: nome em inglês, nome em português, URL oficial, facilidade, preparação, apresentação de informações, prática e feedback, avaliação, possibilidades de Bloom e exemplo. Um último campo opcional contém a URL da imagem do recurso. Nas três colunas de classificação, os prefixos são `G` (adequado), `Y` (condicional) e `R` (não oferece diretamente), seguidos de `|` e da explicação.
 
 ## Critérios e fontes
 
