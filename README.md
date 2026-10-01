@@ -20,11 +20,11 @@ Documentação: https://docs.github.com/en/pages/getting-started-with-github-pag
 
 Edite `catalogo.json` e execute `node build.mjs` para gerar novamente `index.html`. Node.js é necessário apenas para essa regeneração. A aparência é definida em `styles.css`. Inclua a versão atualizada de `index.html` no commit: o GitHub Pages não executa automaticamente esse gerador.
 
-Cada recurso contém: nome em inglês, nome em português, URL oficial, facilidade, preparação, apresentação de informações, prática e feedback, avaliação, possibilidades de Bloom e exemplo. Um último campo opcional contém a URL da imagem do recurso. Nas três colunas de classificação, os prefixos são `G` (adequado), `Y` (condicional) e `R` (não oferece diretamente), seguidos de `|` e da explicação.
+Cada recurso contém: nome em inglês, nome em português, URL oficial, facilidade, preparação, apresentação de informações, prática e feedback, avaliação, possibilidades da Taxonomia de Bloom e exemplo. Um último campo opcional contém a URL da imagem do recurso. Nas três colunas de classificação, os prefixos são `G` (adequado), `Y` (condicional) e `R` (não oferece diretamente), seguidos de `|` e da explicação.
 
 ## Critérios e fontes
 
-As classificações e os exemplos são propostas pedagógicas, não classificações oficiais do H5P. Os níveis de Bloom indicam possibilidades e dependem da tarefa. A verificação automática não garante registro de notas no Moodle. A disponibilidade e acessibilidade dos tipos de conteúdo dependem da versão e da instalação.
+As classificações e os exemplos são propostas pedagógicas, não classificações oficiais do H5P. Os níveis da Taxonomia de Bloom indicam possibilidades e dependem da tarefa. A verificação automática não garante registro de notas no Moodle. A disponibilidade e acessibilidade dos tipos de conteúdo dependem da versão e da instalação.
 
 - Catálogo oficial: https://h5p.org/content-types-and-applications
 - Atividade H5P no Moodle: https://docs.moodle.org/501/en/H5P_activity
