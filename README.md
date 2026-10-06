@@ -48,3 +48,9 @@ Publique `assets` e `atividades` junto com os arquivos do guia na branch configu
 
 Documentação do player: https://github.com/tunapanda/h5p-standalone
 Documentação do Pages: https://docs.github.com/en/pages
+
+## Exemplo Image Hotspots — segurança do trabalho
+
+A página `atividades/image-hotspots.html` apresenta quatro pontos: bloqueio e etiqueta, delimitação da área, relógio metálico e armazenamento indevido. Os dois primeiros são positivos; os dois últimos são negativos. A base é a redação de 2019 da NR-10, vigente na data de elaboração (6 out. 2026). As referências em formato ABNT e a declaração de produção com IA estão na página, no pacote e em `atividades/image-hotspots-seguranca-eletrica.md`.
+
+O arquivo para importação é `atividades/image-hotspots-seguranca-eletrica.h5p`; o conteúdo extraído está em `atividades/image-hotspots-conteudo`. O gerador é `atividades/gerar-image-hotspots.py`. A ilustração original está em `atividades/eletricista-seguranca.png`; o prompt final está em `atividades/image-hotspots-prompt.txt`. O gerador também atualiza a pasta extraída. As bibliotecas oficiais foram obtidas em https://api.h5p.org/v1/content-types/H5P.ImageHotspots.
