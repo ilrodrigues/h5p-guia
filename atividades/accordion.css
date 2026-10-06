@@ -1,0 +1,7 @@
+.activity-page { max-width: 960px; padding-top: 32px; padding-bottom: 48px; }
+.activity-page h1 { color: #245a35; line-height: 1.2; }
+.activity-page .eyebrow { margin-top: 28px; color: #357e4b; }
+#h5p-container { margin-top: 24px; background: white; }
+.activity-download { margin-top: 28px; }
+.activity-download a { display: inline-block; padding: 10px 16px; border: 1px solid #357e4b; border-radius: 6px; }
+.activity-credits { font-size: .9rem; color: #48554b; }

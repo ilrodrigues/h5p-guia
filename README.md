@@ -4,7 +4,7 @@ Site HTML estático em português brasileiro com 54 recursos organizados em quat
 
 ## Abrir
 
-Abra `index.html` em um navegador. Os arquivos `index.html`, `styles.css` e `guide.js` devem ficar na mesma pasta, junto à pasta `images`, que contém os ícones oficiais dos recursos H5P. Inclua essa pasta na publicação. O site não exige servidor, dependências ou etapa de compilação para ser publicado. O pequeno script `guide.js` ajusta o cabeçalho fixo à altura do menu; o conteúdo e os grupos expansíveis funcionam sem JavaScript.
+Abra `index.html` em um navegador. Os arquivos `index.html`, `styles.css` e `guide.js` devem ficar na mesma pasta, junto à pasta `images`, que contém os ícones oficiais dos recursos H5P. Inclua essa pasta na publicação. O guia não exige etapa de compilação para ser publicado. O exemplo H5P precisa ser servido por HTTP ou HTTPS; abrir seu HTML diretamente como arquivo local não é suficiente. O pequeno script `guide.js` ajusta o cabeçalho fixo à altura do menu; o conteúdo e os grupos expansíveis funcionam sem JavaScript.
 
 ## Publicar no GitHub Pages
 
@@ -33,3 +33,18 @@ As classificações e os exemplos são propostas pedagógicas, não classificaç
 A referência visual é o Guia de Ferramentas Moodle disponibilizado por Nicolas Martignoni, baseado na ideia de Joyce Seitzinger, com tradução e adaptação brasileira de Gilvan Marques. O texto e a matriz H5P foram elaborados para esta proposta.
 
 Consulta das fontes: 30/09/2026.
+
+## Exemplo Accordion com H5P Standalone
+
+Abra `atividades/accordion.html` em um servidor HTTP. Para conferir localmente, execute `python -m http.server 8000` na raiz e acesse http://localhost:8000/atividades/accordion.html.
+
+O player H5P Standalone 3.8.2 está incluído em `assets/h5p-player`, com arquivos de licença. Nenhum CDN ou instalação npm é necessário para servir o site. O pacote original `.h5p` está em `atividades`, e sua versão extraída em `atividades/accordion-conteudo`. Inclua `assets` e os arquivos da atividade na publicação, também no GitHub Pages.
+
+Para atualizar os textos, execute `python atividades/gerar-accordion.py` e extraia novamente o pacote gerado para `atividades/accordion-conteudo`. O arquivo `accordion-base.h5p` é a base oficial utilizada pelo gerador. As referências e os créditos estão em `atividades/accordion-piaget-vigotski-wallon.md`.
+
+## Atualizar o GitHub Pages com o exemplo
+
+Publique `assets` e `atividades` junto com os arquivos do guia na branch configurada no GitHub Pages. A página do exemplo será `atividades/accordion.html`, e a tabela do Accordion inclui um link para abri-la. Os caminhos relativos também funcionam quando o site está em um subdiretório como `/h5p-guia/`.
+
+Documentação do player: https://github.com/tunapanda/h5p-standalone
+Documentação do Pages: https://docs.github.com/en/pages
