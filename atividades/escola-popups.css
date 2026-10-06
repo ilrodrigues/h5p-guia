@@ -1,0 +1,23 @@
+/* Limita os popups do exemplo da escola, inclusive no modo móvel do H5P. */
+.h5p-image-hotspot-popup:not(.fullscreen-popup) {
+  max-width: 48%;
+}
+
+.h5p-image-hotspot-popup.fullscreen-popup {
+  width: 82% !important;
+  left: 9% !important;
+  top: 8% !important;
+  height: 84% !important;
+  max-height: 84%;
+  border-radius: 6px;
+}
+
+.h5p-image-hotspot-popup.fullscreen-popup .h5p-image-hotspot-popup-content {
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.h5p-image-hotspots-overlay.visible {
+  background: rgba(0, 0, 0, .12);
+}
