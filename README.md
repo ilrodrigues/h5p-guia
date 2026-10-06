@@ -54,3 +54,9 @@ Documentação do Pages: https://docs.github.com/en/pages
 A página `atividades/image-hotspots.html` apresenta quatro pontos: bloqueio e etiqueta, delimitação da área, relógio metálico e armazenamento indevido. Os dois primeiros são positivos; os dois últimos são negativos. A base é a redação de 2019 da NR-10, vigente na data de elaboração (6 out. 2026). As referências em formato ABNT e a declaração de produção com IA estão na página, no pacote e em `atividades/image-hotspots-seguranca-eletrica.md`.
 
 O arquivo para importação é `atividades/image-hotspots-seguranca-eletrica.h5p`; o conteúdo extraído está em `atividades/image-hotspots-conteudo`. O gerador é `atividades/gerar-image-hotspots.py`. A ilustração original está em `atividades/eletricista-seguranca.png`; o prompt final está em `atividades/image-hotspots-prompt.txt`. O gerador também atualiza a pasta extraída. As bibliotecas oficiais foram obtidas em https://api.h5p.org/v1/content-types/H5P.ImageHotspots.
+
+## Segundo exemplo Image Hotspots — espaços da escola
+
+A página `atividades/escola.html` usa a imagem aprovada `atividades/escola-mapa-proposta-v2.png` e apresenta sugestões pedagógicas na horta, no laboratório de química, na sala de aula e no pátio. A referência ABNT da imagem produzida com IA está na página, em cada hotspot e em `atividades/image-hotspots-escola.md`.
+
+O download é `atividades/image-hotspots-escola.h5p`. O gerador `python atividades/gerar-escola.py` atualiza o pacote e a pasta `atividades/escola-conteudo`. Os prompts da ilustração estão nos arquivos `escola-mapa-prompt.txt` e `escola-mapa-prompt-v2.txt`.
