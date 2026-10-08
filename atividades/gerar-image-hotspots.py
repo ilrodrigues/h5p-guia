@@ -16,7 +16,7 @@ PONTOS = [
     {'titulo':'2. Ponto positivo — delimitação da área', 'x':23.0, 'y':49.7,
      'texto':'A barreira demarca o espaço de trabalho e ajuda a restringir o acesso de pessoas não envolvidas. Sua instalação deve considerar os riscos e as condições do local. Na cena, a delimitação é um aspecto positivo.',
      'itens':'10.10.1, alíneas c e d'},
-    {'titulo':'3. Ponto negativo — relógio metálico', 'x':66.1, 'y':42.2,
+    {'titulo':'3. Ponto negativo — relógio metálico', 'x':74.0, 'y':42.2,
      'texto':'O eletricista usa um relógio com pulseira metálica. A NR-10 proíbe adornos pessoais em trabalhos com instalações elétricas ou em suas proximidades. O relógio deve ser retirado antes da atividade.',
      'itens':'10.2.9.3'},
     {'titulo':'4. Ponto negativo — armazenamento indevido', 'x':86.9, 'y':64.0,
