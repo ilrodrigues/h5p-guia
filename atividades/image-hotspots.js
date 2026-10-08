@@ -9,6 +9,7 @@ async function carregarHotspots() {
       frameJs: relativo('../assets/h5p-player/frame.bundle.js'),
       frameCss: relativo('../assets/h5p-player/styles/h5p.css'),
       frame: false,
+      customCss: relativo('./escola-popups.css?v=1'),
     });
     status.hidden = true;
   } catch (erro) {

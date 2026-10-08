@@ -42,7 +42,7 @@ def gerar():
         }
         for p in PONTOS:
             texto = f'<p>{html.escape(p["texto"])}</p><p><strong>Base normativa:</strong> NR-10, item {p["itens"]}, redação de 2019 vigente em 6 out. 2026.</p>'+referencias_html()
-            conteudo['hotspots'].append({'position':{'x':p['x'],'y':p['y'],'legacyPositioning':False},'alwaysFullscreen':True,'header':p['titulo'],'content':[{'library':'H5P.Text 1.1','params':{'text':texto},'subContentId':str(uuid.uuid4()),'metadata':{'title':p['titulo'],'contentType':'Text','license':'U'}}]})
+            conteudo['hotspots'].append({'position':{'x':p['x'],'y':p['y'],'legacyPositioning':False},'alwaysFullscreen':False,'header':p['titulo'],'content':[{'library':'H5P.Text 1.1','params':{'text':texto},'subContentId':str(uuid.uuid4()),'metadata':{'title':p['titulo'],'contentType':'Text','license':'U'}}]})
         arquivos = {n:base.read(n) for n in base.namelist() if not n.startswith('content/') and n != 'h5p.json' and not n.endswith('/')}
         arquivos['h5p.json'] = json.dumps(manifesto,ensure_ascii=False).encode('utf-8')
         arquivos['content/content.json'] = json.dumps(conteudo,ensure_ascii=False).encode('utf-8')
