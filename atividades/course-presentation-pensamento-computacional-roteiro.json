@@ -1,0 +1,650 @@
+[
+  {
+    "slide": 1,
+    "titulo": "Pensamento computacional: primeiros passos",
+    "conteudo": "<p>Uma forma de organizar e resolver problemas, inspirada em conceitos da Ciência da Computação.</p><ul><li>Para pessoas de diferentes áreas.</li><li>Vai além de aprender a programar.</li><li>Neste percurso: ideias básicas e nove formas de responder.</li></ul><p>Use as setas para navegar. Nas atividades, responda e confira o retorno.</p>",
+    "tipo": "Conteúdo"
+  },
+  {
+    "slide": 2,
+    "titulo": "1 · Múltipla escolha",
+    "conteudo": {
+      "media": {
+        "disableImageZooming": false
+      },
+      "question": "<p>Quais ideias se aproximam da proposta de Wing? Selecione duas.</p>",
+      "answers": [
+        {
+          "text": "<p>Pode apoiar a resolução de problemas em diferentes áreas.</p>",
+          "correct": true,
+          "tipsAndFeedback": {
+            "chosenFeedback": "Wing propõe uma habilidade para todas as pessoas."
+          }
+        },
+        {
+          "text": "<p>É exclusivo de quem escreve programas.</p>",
+          "correct": false,
+          "tipsAndFeedback": {
+            "chosenFeedback": "A proposta vai além da programação."
+          }
+        },
+        {
+          "text": "<p>Inclui organizar e representar problemas.</p>",
+          "correct": true
+        },
+        {
+          "text": "<p>Exige sempre usar um computador.</p>",
+          "correct": false
+        }
+      ],
+      "overallFeedback": {
+        "overallFeedback": []
+      },
+      "UI": {
+        "checkAnswerButton": "Verificar",
+        "submitAnswerButton": "Enviar",
+        "showSolutionButton": "Mostrar solução",
+        "tryAgainButton": "Tentar Novamente",
+        "tipsLabel": "Mostrar dica",
+        "scoreBarLabel": "Você conseguiu :num de :total pontos possíveis",
+        "tipAvailable": "Dica disponível",
+        "feedbackAvailable": "Feedback disponível",
+        "readFeedback": "Ler feedback",
+        "wrongAnswer": "Resposta incorreta",
+        "correctAnswer": "Resposta correta",
+        "shouldCheck": "Deveria ter sido verificado",
+        "shouldNotCheck": "Não deveria ter sido marcado",
+        "noInput": "Por favor, responda antes de visualizar a solução",
+        "a11yCheck": "Confira as respostas. As respostas serão marcadas como corretas, incorretas ou não respondidas.",
+        "a11yShowSolution": "Mostrar a solução. A tarefa será marcada com sua solução correta.",
+        "a11yRetry": "Repita a tarefa. Redefina todas as respostas e inicie a tarefa novamente."
+      },
+      "behaviour": {
+        "enableRetry": true,
+        "enableSolutionsButton": true,
+        "enableCheckButton": true,
+        "type": "multi",
+        "singlePoint": false,
+        "randomAnswers": false,
+        "showSolutionsRequiresInput": true,
+        "confirmCheckDialog": false,
+        "confirmRetryDialog": false,
+        "autoCheck": false,
+        "passPercentage": 100,
+        "showScorePoints": true
+      },
+      "confirmCheck": {
+        "header": "Finalizar ?",
+        "body": "Você tem certeza que deseja finalizar ?",
+        "cancelLabel": "Cancelar",
+        "confirmLabel": "Finalizar"
+      },
+      "confirmRetry": {
+        "header": "Tentar Novamente ?",
+        "body": "Você tem certeza que deseja tentar novamente ?",
+        "cancelLabel": "Cancelar",
+        "confirmLabel": "Confirmar"
+      }
+    },
+    "tipo": "H5P.MultiChoice 1.16"
+  },
+  {
+    "slide": 3,
+    "titulo": "2 · Verdadeiro ou falso",
+    "conteudo": {
+      "media": {
+        "disableImageZooming": false
+      },
+      "question": "<p>Pensamento computacional significa fazer as pessoas pensarem mecanicamente, como computadores.</p>",
+      "correct": "false",
+      "l10n": {
+        "trueText": "Verdadeiro",
+        "falseText": "Falso",
+        "score": "Você conseguiu @score de @total pontos possíveis",
+        "checkAnswer": "Verificar",
+        "submitAnswer": "Enviar",
+        "showSolutionButton": "Mostrar solução",
+        "tryAgain": "Tentar Novamente",
+        "wrongAnswerMessage": "Resposta incorreta",
+        "correctAnswerMessage": "Resposta correta",
+        "scoreBarLabel": "Você conseguiu :num de :total pontos possíveis",
+        "a11yCheck": "Verifique as respostas. As respostas serão marcadas como corretas, incorretas, ou sem resposta.",
+        "a11yShowSolution": "Mostrar a solução. A tarefa será marcada com sua solução correta.",
+        "a11yRetry": "Tente realizar a tarefa novamente. Reinicialize todas as respostas e recomece."
+      },
+      "behaviour": {
+        "enableRetry": true,
+        "enableSolutionsButton": true,
+        "enableCheckButton": true,
+        "confirmCheckDialog": false,
+        "confirmRetryDialog": false,
+        "autoCheck": false,
+        "feedbackOnCorrect": "Correto. Wing destaca a criatividade humana na resolução de problemas.",
+        "feedbackOnWrong": "Releia a ideia: é uma forma humana de resolver problemas, não imitar mecanicamente uma máquina."
+      },
+      "confirmCheck": {
+        "header": "Finalizar ?",
+        "body": "Você tem certeza de que deseja finalizar?",
+        "cancelLabel": "Cancelar",
+        "confirmLabel": "Finalizar"
+      },
+      "confirmRetry": {
+        "header": "Tentar Novamente ?",
+        "body": "Você tem certeza de que deseja tentar novamente ?",
+        "cancelLabel": "Cancelar",
+        "confirmLabel": "Confirmar"
+      }
+    },
+    "tipo": "H5P.TrueFalse 1.8"
+  },
+  {
+    "slide": 4,
+    "titulo": "Abstração: focar no que importa",
+    "conteudo": "<p>Ao representar um problema, selecionamos os aspectos relevantes para o objetivo.</p><p><strong>Exemplo:</strong> para planejar um caminho até a biblioteca, precisamos das conexões entre os espaços. A cor das paredes pode ser dispensada.</p><p>O que importa depende da pergunta: para reformar a biblioteca, as dimensões e os materiais já seriam essenciais.</p>",
+    "tipo": "Conteúdo"
+  },
+  {
+    "slide": 5,
+    "titulo": "3 · Preencher lacunas",
+    "conteudo": {
+      "media": {
+        "disableImageZooming": false
+      },
+      "text": "<p>Complete com abstração ou decomposição.</p>",
+      "questions": [
+        "<p>Selecionar os aspectos relevantes de um problema é uma forma de *abstração*.</p>"
+      ],
+      "overallFeedback": {
+        "overallFeedback": []
+      },
+      "showSolutions": "Mostrar solução",
+      "tryAgain": "Tentar Novamente",
+      "checkAnswer": "Verificar",
+      "submitAnswer": "Enviar",
+      "notFilledOut": "Favor preencher todos os espaços em branco para ver a solução",
+      "answerIsCorrect": "':ans' está correto",
+      "answerIsWrong": "':ans' está incorreto",
+      "answeredCorrectly": "Respondido corretamente",
+      "answeredIncorrectly": "Respondido incorretamente",
+      "solutionLabel": "Resposta correta:",
+      "inputLabel": "Espaço em branco @num de @total",
+      "inputHasTipLabel": "Dica disponível",
+      "tipLabel": "Dica",
+      "behaviour": {
+        "enableRetry": true,
+        "enableSolutionsButton": true,
+        "enableCheckButton": true,
+        "autoCheck": false,
+        "caseSensitive": false,
+        "showSolutionsRequiresInput": true,
+        "separateLines": false,
+        "confirmCheckDialog": false,
+        "confirmRetryDialog": false,
+        "acceptSpellingErrors": false
+      },
+      "confirmCheck": {
+        "header": "Finalizar ?",
+        "body": "Você tem certeza que deseja finalizar ?",
+        "cancelLabel": "Cancelar",
+        "confirmLabel": "Finalizar"
+      },
+      "confirmRetry": {
+        "header": "Tentar Novamente ?",
+        "body": "Você tem certeza que deseja tentar novamente ?",
+        "cancelLabel": "Cancelar",
+        "confirmLabel": "Confirmar"
+      },
+      "scoreBarLabel": "Você conseguiu :num de :total pontos possíveis",
+      "a11yCheck": "Verifique as respostas. As respostas serão marcadas como corretas, incorretas, ou sem resposta.",
+      "a11yShowSolution": "Mostrar a solução. A tarefa será marcada com sua solução correta.",
+      "a11yRetry": "Tente realizar a tarefa novamente. Reinicialize todas as respostas e recomece.",
+      "a11yCheckingModeHeader": "Modo de verificação"
+    },
+    "tipo": "H5P.Blanks 1.14"
+  },
+  {
+    "slide": 6,
+    "titulo": "4 · Arrastar palavras",
+    "conteudo": {
+      "media": {
+        "disableImageZooming": false
+      },
+      "taskDescription": "<p>Arraste as palavras para completar a explicação.</p>",
+      "textField": "Um mapa simplificado destaca informações *relevantes* para o objetivo e pode omitir detalhes *desnecessários*.",
+      "distractors": "aleatórios",
+      "overallFeedback": {
+        "overallFeedback": []
+      },
+      "checkAnswer": "Verificar",
+      "submitAnswer": "Enviar",
+      "tryAgain": "Tentar Novamente",
+      "showSolution": "Mostrar solução",
+      "dropZoneIndex": "Zona de Soltura @index.",
+      "empty": "A Zona de Soltura @index está vazia.",
+      "contains": "Zona de soltura @index contém o elemento arrastável @draggable.",
+      "ariaDraggableIndex": "@index de @count elementos arrastáveis.",
+      "tipLabel": "Mostrar dica",
+      "correctText": "Correto!",
+      "incorrectText": "Incorreto!",
+      "resetDropTitle": "Redefinir elemento arrastável",
+      "resetDropDescription": "Você tem certeza que deseja redefinir esta zona de soltura?",
+      "grabbed": "O elemento arrastável foi agarrado.",
+      "cancelledDragging": "Arrastamento cancelado.",
+      "correctAnswer": "Resposta correta:",
+      "feedbackHeader": "Feedback",
+      "behaviour": {
+        "enableRetry": true,
+        "enableSolutionsButton": true,
+        "enableCheckButton": true,
+        "instantFeedback": false
+      },
+      "scoreBarLabel": "Você conseguiu :num de :total pontos possíveis",
+      "a11yCheck": "Verifique as respostas. As respostas serão marcadas como corretas, incorretas, ou sem resposta.",
+      "a11yShowSolution": "Mostrar a solução. A tarefa será marcada com sua solução correta.",
+      "a11yRetry": "Tente realizar a tarefa novamente. Reinicialize todas as respostas e recomece."
+    },
+    "tipo": "H5P.DragText 1.10"
+  },
+  {
+    "slide": 7,
+    "titulo": "Decomposição: dividir para compreender",
+    "conteudo": "<p>Um problema amplo pode ser dividido em partes menores que conseguimos analisar.</p><p><strong>Organizar uma feira de ciências:</strong></p><ul><li>Planejar os projetos e materiais.</li><li>Definir os espaços e a programação.</li><li>Preparar a divulgação.</li></ul><p>Depois, precisamos coordenar as partes. Esta é uma estratégia possível, não uma receita única.</p>",
+    "tipo": "Conteúdo"
+  },
+  {
+    "slide": 8,
+    "titulo": "5 · Arrastar e soltar",
+    "conteudo": {
+      "scoreShow": "Verificar",
+      "submit": "Enviar",
+      "tryAgain": "Tentar Novamente",
+      "scoreExplanation": "Respostas corretas dão +1 ponto. Respostas incorretas dão -1 ponto. A menor pontuação possível é 0.",
+      "question": {
+        "settings": {
+          "size": {
+            "width": 900,
+            "height": 350,
+            "field": "background"
+          }
+        },
+        "task": {
+          "elements": [
+            {
+              "type": {
+                "library": "H5P.AdvancedText 1.1",
+                "params": {
+                  "text": "<p>Cartaz de convite</p>"
+                },
+                "subContentId": "1e46770d-5d65-42dd-a3cb-b5ec5e12c68a",
+                "metadata": {
+                  "title": "Cartaz de convite",
+                  "contentType": "AdvancedText",
+                  "license": "U"
+                }
+              },
+              "x": 5,
+              "y": 15,
+              "width": 10,
+              "height": 3,
+              "dropZones": [
+                "0",
+                "1"
+              ],
+              "multiple": false,
+              "backgroundOpacity": 100
+            },
+            {
+              "type": {
+                "library": "H5P.AdvancedText 1.1",
+                "params": {
+                  "text": "<p>Mapa das mesas</p>"
+                },
+                "subContentId": "08bdc6b4-9fe6-41f9-82eb-a36b2eba3d92",
+                "metadata": {
+                  "title": "Mapa das mesas",
+                  "contentType": "AdvancedText",
+                  "license": "U"
+                }
+              },
+              "x": 5,
+              "y": 55,
+              "width": 10,
+              "height": 3,
+              "dropZones": [
+                "0",
+                "1"
+              ],
+              "multiple": false,
+              "backgroundOpacity": 100
+            }
+          ],
+          "dropZones": [
+            {
+              "label": "Divulgação",
+              "showLabel": true,
+              "x": 55,
+              "y": 15,
+              "width": 14,
+              "height": 4,
+              "correctElements": [
+                "0"
+              ],
+              "backgroundOpacity": 100,
+              "single": true,
+              "autoAlign": true,
+              "tipsAndFeedback": {
+                "feedbackOnCorrect": "Associação correta.",
+                "feedbackOnIncorrect": "Pense na finalidade de cada item."
+              }
+            },
+            {
+              "label": "Espaço",
+              "showLabel": true,
+              "x": 55,
+              "y": 55,
+              "width": 14,
+              "height": 4,
+              "correctElements": [
+                "1"
+              ],
+              "backgroundOpacity": 100,
+              "single": true,
+              "autoAlign": true,
+              "tipsAndFeedback": {
+                "feedbackOnCorrect": "Associação correta.",
+                "feedbackOnIncorrect": "Pense na finalidade de cada item."
+              }
+            }
+          ]
+        }
+      },
+      "overallFeedback": {
+        "overallFeedback": []
+      },
+      "behaviour": {
+        "enableRetry": true,
+        "enableCheckButton": true,
+        "singlePoint": false,
+        "applyPenalties": true,
+        "enableScoreExplanation": true,
+        "backgroundOpacity": "",
+        "dropZoneHighlighting": "always",
+        "autoAlignSpacing": 2,
+        "enableFullScreen": false,
+        "showScorePoints": true,
+        "showTitle": true
+      },
+      "localize": {
+        "fullscreen": "Tela Cheia",
+        "exitFullscreen": "Sair da Tela Cheia"
+      },
+      "grabbablePrefix": "Elemento Arrastável {num} de {total}.",
+      "grabbableSuffix": "Colocado na zona de soltura {num}.",
+      "dropzonePrefix": "Zona de soltura {num} de {total}.",
+      "noDropzone": "Nenhuma zona de soltura.",
+      "tipLabel": "Mostrar dica.",
+      "tipAvailable": "Dica Disponível",
+      "correctAnswer": "Resposta correta",
+      "wrongAnswer": "Resposta incorreta",
+      "feedbackHeader": "Feedback",
+      "scoreBarLabel": "Você conseguiu :num de :total pontos possíveis",
+      "scoreExplanationButtonLabel": "Mostrar explicação da pontuação",
+      "a11yCheck": "Verifique as respostas. As respostas serão marcadas como corretas, incorretas, ou sem resposta.",
+      "a11yRetry": "Tente realizar a tarefa novamente. Reinicialize todas as respostas e recomece."
+    },
+    "tipo": "H5P.DragQuestion 1.14"
+  },
+  {
+    "slide": 9,
+    "titulo": "6 · Marcar palavras",
+    "conteudo": {
+      "media": {
+        "disableImageZooming": false
+      },
+      "taskDescription": "<p>Marque somente os dois termos que nomeiam estratégias estudadas.</p>",
+      "textField": "*abstração* decoração *decomposição* improvisação",
+      "overallFeedback": {
+        "overallFeedback": []
+      },
+      "checkAnswerButton": "Verificar",
+      "submitAnswerButton": "Enviar",
+      "tryAgainButton": "Tentar Novamente",
+      "showSolutionButton": "Mostrar solução",
+      "behaviour": {
+        "enableRetry": true,
+        "enableSolutionsButton": true,
+        "enableCheckButton": true,
+        "showScorePoints": true
+      },
+      "correctAnswer": "Correto!",
+      "incorrectAnswer": "Incorreto!",
+      "missedAnswer": "Questão não respondida!",
+      "displaySolutionDescription": "A tarefa está atualizada com a solução.",
+      "scoreBarLabel": "Você conseguiu :num de :total pontos possíveis",
+      "a11yFullTextLabel": "Texto legível completo",
+      "a11yClickableTextLabel": "Texto completo onde as palavras podem ser marcadas",
+      "a11ySolutionModeHeader": "Modo Solução",
+      "a11yCheckingHeader": "Modo de verificação",
+      "a11yCheck": "Verifique as respostas. As respostas serão marcadas como corretas, incorretas, ou sem resposta.",
+      "a11yShowSolution": "Mostrar a solução. A tarefa será marcada com sua solução correta.",
+      "a11yRetry": "Tente realizar a tarefa novamente. Reinicialize todas as respostas e recomece."
+    },
+    "tipo": "H5P.MarkTheWords 1.11"
+  },
+  {
+    "slide": 10,
+    "titulo": "Representações e verificação",
+    "conteudo": "<p>Podemos representar um caminho por um mapa, uma lista de instruções ou um diagrama.</p><p>Uma sequência clara ajuda outra pessoa a executar a tarefa. Depois, verificamos se o resultado atende ao objetivo.</p><p><strong>Em outras áreas:</strong> organizar dados de um experimento, planejar um projeto ou localizar uma falha em um sistema.</p><p>Escolher a representação e avaliar a solução fazem parte do trabalho de resolver problemas.</p>",
+    "tipo": "Conteúdo"
+  },
+  {
+    "slide": 11,
+    "titulo": "7 · Escolha com imagens",
+    "conteudo": {
+      "media": {
+        "disableImageZooming": false
+      },
+      "question": "<p>Qual representação ajuda a saber por quais espaços passar até a biblioteca?</p>",
+      "options": [
+        {
+          "media": {
+            "library": "H5P.Image 1.1",
+            "params": {
+              "decorative": false,
+              "alt": "Diagrama: Entrada ligada ao Pátio, que está ligado à Biblioteca.",
+              "title": "",
+              "contentName": "Imagem",
+              "expandImage": "Expand Image",
+              "minimizeImage": "Minimize Image",
+              "file": {
+                "path": "images/rota.svg",
+                "mime": "image/svg+xml",
+                "width": 540,
+                "height": 220
+              }
+            },
+            "subContentId": "ba868881-999f-4d8b-bfe2-a928a7829ac9",
+            "metadata": {
+              "title": "Conexões entre espaços",
+              "contentType": "Image",
+              "license": "U"
+            }
+          },
+          "correct": true
+        },
+        {
+          "media": {
+            "library": "H5P.Image 1.1",
+            "params": {
+              "decorative": false,
+              "alt": "Três círculos com as cores das paredes, sem conexões ou indicação de caminho.",
+              "title": "",
+              "contentName": "Imagem",
+              "expandImage": "Expand Image",
+              "minimizeImage": "Minimize Image",
+              "file": {
+                "path": "images/cores.svg",
+                "mime": "image/svg+xml",
+                "width": 540,
+                "height": 220
+              }
+            },
+            "subContentId": "b18fa7a5-c1b9-4fe0-8893-ecb4fa0df6cf",
+            "metadata": {
+              "title": "Cores das paredes",
+              "contentType": "Image",
+              "license": "U"
+            }
+          },
+          "correct": false
+        }
+      ],
+      "overallFeedback": {
+        "overallFeedback": []
+      },
+      "behaviour": {
+        "enableRetry": true,
+        "enableSolutionsButton": true,
+        "confirmCheckDialog": false,
+        "confirmRetryDialog": false,
+        "singlePoint": false,
+        "showSolutionsRequiresInput": true,
+        "questionType": "single",
+        "aspectRatio": "auto",
+        "maxAlternativesPerRow": "2",
+        "passPercentage": 100
+      },
+      "l10n": {
+        "checkAnswerButtonText": "Verificar",
+        "submitAnswerButtonText": "Enviar",
+        "checkAnswer": "Verifique as respostas. As respostas serão marcadas como corretas, incorretas, ou sem resposta.",
+        "showSolutionButtonText": "Mostrar solução",
+        "showSolution": "Mostrar a solução. As opções corretas serão verificadas.",
+        "correctAnswer": "Resposta correta",
+        "wrongAnswer": "Resposta incorreta",
+        "shouldCheck": "Deveria ter sido verificado",
+        "shouldNotCheck": "Não deveria ter sido verificado",
+        "noAnswer": "Por favor, responda antes de ver a solução",
+        "retryText": "Tentar Novamente",
+        "retry": "Tente realizar a tarefa novamente. Reinicialize todas as respostas e recomece.",
+        "result": "Você conseguiu :num de :pontos totais possíveis",
+        "confirmCheck": {
+          "header": "Finalizar?",
+          "body": "Você tem certeza que quer finalizar?",
+          "cancelLabel": "Cancelar",
+          "confirmLabel": "Finalizar"
+        },
+        "confirmRetry": {
+          "header": "Tentar Novamente?",
+          "body": "Você tem certeza que deseja tentar novamente?",
+          "cancelLabel": "Cancelar",
+          "confirmLabel": "Tentar Novamente"
+        },
+        "missingAltText": "Texto alternativo ausente",
+        "closeModalText": "Close modal"
+      }
+    },
+    "tipo": "H5P.MultiMediaChoice 0.3"
+  },
+  {
+    "slide": 12,
+    "titulo": "8 · Sequência de escolha única",
+    "conteudo": {
+      "choices": [
+        {
+          "question": "<p>Dividir um projeto em partes menores é um exemplo de:</p>",
+          "answers": [
+            "Decomposição",
+            "Decoração",
+            "Digitação"
+          ]
+        },
+        {
+          "question": "<p>Após propor uma solução, o que ajuda a avaliar se ela funciona?</p>",
+          "answers": [
+            "Verificar se atende ao objetivo",
+            "Ignorar o resultado",
+            "Apenas trocar a aparência"
+          ]
+        }
+      ],
+      "overallFeedback": {
+        "overallFeedback": []
+      },
+      "behaviour": {
+        "autoContinue": true,
+        "timeoutCorrect": 1500,
+        "timeoutWrong": 2500,
+        "soundEffectsEnabled": false,
+        "enableRetry": true,
+        "enableSolutionsButton": true,
+        "passPercentage": 100
+      },
+      "l10n": {
+        "nextButtonLabel": "Próxima questão",
+        "showSolutionButtonLabel": "Mostrar Solução",
+        "retryButtonLabel": "Tentar Novamente",
+        "solutionViewTitle": "Lista de soluções",
+        "correctText": "Correto!",
+        "incorrectText": "Incorreto!",
+        "shouldSelect": "Should have been selected",
+        "shouldNotSelect": "Should not have been selected",
+        "muteButtonLabel": "Desativar o som do feedback",
+        "closeButtonLabel": "Fechar",
+        "slideOfTotal": "Slide :num de :total",
+        "scoreBarLabel": "Você conseguiu :num de :total pontos possíveis",
+        "solutionListQuestionNumber": "Questão :num",
+        "a11yShowSolution": "Mostrar a solução. A tarefa será marcada com sua solução correta.",
+        "a11yRetry": "Tente realizar a tarefa novamente. Reinicialize todas as respostas e recomece."
+      }
+    },
+    "tipo": "H5P.SingleChoiceSet 1.11"
+  },
+  {
+    "slide": 13,
+    "titulo": "9 · Resumo interativo",
+    "conteudo": {
+      "intro": "<p>Escolha a afirmação adequada em cada grupo para construir uma síntese.</p>",
+      "summaries": [
+        {
+          "summary": [
+            "Pensamento computacional pode apoiar pessoas de diferentes áreas.",
+            "Pensamento computacional é exclusivo de programadores."
+          ]
+        },
+        {
+          "summary": [
+            "Abstração destaca aspectos relevantes; decomposição divide um problema em partes.",
+            "Abstração elimina toda informação; decomposição dispensa coordenar as partes."
+          ]
+        },
+        {
+          "summary": [
+            "É necessário avaliar se a solução atende ao objetivo.",
+            "Toda solução funciona sem precisar de verificação."
+          ]
+        }
+      ],
+      "overallFeedback": {
+        "overallFeedback": []
+      },
+      "solvedLabel": "Progresso:",
+      "scoreLabel": "Respostas incorretas:",
+      "resultLabel": "Seu resultado",
+      "labelCorrect": "Correto.",
+      "labelIncorrect": "Incorreto! Por favor, tente novamente.",
+      "alternativeIncorrectLabel": "Incorreto",
+      "labelCorrectAnswers": "Respostas corretas.",
+      "tipButtonLabel": "Mostrar dica",
+      "scoreBarLabel": "Você conseguiu :num de :total pontos possíveis",
+      "progressText": "Progresso :num de :total"
+    },
+    "tipo": "H5P.Summary 1.10"
+  },
+  {
+    "slide": 14,
+    "titulo": "Para continuar e referências",
+    "conteudo": "<p><strong>Converse com a turma:</strong> em qual tarefa de sua área você poderia usar uma destas estratégias?</p><p>Esta apresentação é uma introdução. Não pretende esgotar o artigo nem definir uma lista completa de estratégias.</p><p><strong>Fonte:</strong> Wing (2016), tradução de Cleverson Sebastião dos Anjos, RBECT, v. 9, n. 2, p. 1–10. DOI: <a href=\"https://doi.org/10.3895/rbect.v9n2.4711\">10.3895/rbect.v9n2.4711</a>.</p><p>Exemplos, questões e diagramas adaptados com auxílio de IA (OpenAI/Codex, 2026). Referências completas estão na página da atividade e no pacote.</p><p>Avance para ver os resultados das atividades.</p>",
+    "tipo": "Conteúdo"
+  }
+]

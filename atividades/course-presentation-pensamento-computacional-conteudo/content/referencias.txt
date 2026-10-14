@@ -1,0 +1,3 @@
+WING, Jeannette. Pensamento computacional: um conjunto de atitudes e habilidades que todos, não só cientistas da computação, ficaram ansiosos para aprender e usar. Tradução: Cleverson Sebastião dos Anjos. Revista Brasileira de Ensino de Ciência e Tecnologia, Ponta Grossa, v. 9, n. 2, p. 1–10, maio/ago. 2016. DOI: 10.3895/rbect.v9n2.4711. Disponível em: https://periodicos.utfpr.edu.br/rbect/article/view/4711. Acesso em: 14 out. 2026.
+
+OPENAI. Pensamento computacional: introdução e nove tipos de questões em Course Presentation. [S. l.]: OpenAI, 2026. 1 atividade H5P e diagramas digitais. Conteúdo adaptado e diagramas gerados por código com auxílio de inteligência artificial por meio do Codex, a partir de instruções do solicitante. Produzido em: 14 out. 2026.
