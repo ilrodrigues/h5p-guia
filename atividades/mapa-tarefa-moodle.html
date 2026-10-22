@@ -48,7 +48,7 @@
     <div><h3>Tempo de realização</h3><p>Quando habilitado pela administração, o limite de tempo sinaliza envios feitos após o tempo previsto. Confira seu funcionamento antes de usar.</p></div>
     <div><h3>Competências</h3><p>A tarefa pode se relacionar às competências do curso, conforme a estrutura e as regras de acompanhamento adotadas.</p></div>
   </div></details>
-  <details class="reference sources"><summary>Base de consulta e observações</summary><p>Conteúdo organizado a partir da documentação oficial do Moodle 4.5. Os nomes, as telas e a disponibilidade de algumas opções variam conforme a versão, a tradução e a administração do ambiente. Exemplos pedagógicos elaborados para este mapa. Links externos precisam de internet.</p><ul id="sources-list"></ul></details>
+  <details class="reference sources"><summary>Base de consulta e observações</summary><p>Conteúdo organizado a partir dos recursos padrão do Moodle 4.5. Os links de consulta direcionam à documentação oficial em português brasileiro (PT-BR). Quando uma página específica não está disponível em PT-BR, o link leva a uma visão geral relacionada ao tema, identificada no título. Essas páginas podem se referir a outras versões do Moodle. Os nomes, as telas e a disponibilidade das opções variam conforme a versão, a tradução e a administração do ambiente. Exemplos pedagógicos elaborados para este mapa. Links externos precisam de internet.</p><ul id="sources-list"></ul></details>
   <footer class="footer"><span>Material de estudo · Tarefa do Moodle</span><span>Primeira versão para conferência · 22/10/2026</span></footer>
   <p id="announcement" class="sr-only" aria-live="polite"></p>
   <noscript><p>Ative o JavaScript do navegador para explorar os ramos deste mapa. O arquivo funciona sem conexão após o download.</p></noscript>
@@ -56,19 +56,19 @@
 <script id="map-data" type="application/json">
 {
 "sources":{
-"settings":{"label":"Configurações da Tarefa","url":"https://docs.moodle.org/405/en/Assignment_settings"},
-"overview":{"label":"Visão geral da Tarefa","url":"https://docs.moodle.org/405/en/Assignment_activity"},
-"use":{"label":"Uso e avaliação de tarefas","url":"https://docs.moodle.org/405/en/Using_Assignment"},
-"faq":{"label":"Dúvidas sobre a Tarefa","url":"https://docs.moodle.org/405/en/Assignment_FAQ"},
-"rubric":{"label":"Rubricas","url":"https://docs.moodle.org/405/en/Rubrics"},
-"guide":{"label":"Guia de avaliação","url":"https://docs.moodle.org/405/en/Marking_guide"},
-"points":{"label":"Notas por pontos","url":"https://docs.moodle.org/405/en/Grade_points"},
-"scales":{"label":"Escalas","url":"https://docs.moodle.org/405/en/Scales"},
-"completion":{"label":"Conclusão de atividade","url":"https://docs.moodle.org/405/en/Activity_completion"},
-"access":{"label":"Restrições de acesso","url":"https://docs.moodle.org/405/en/Restrict_access"},
-"groups":{"label":"Grupos","url":"https://docs.moodle.org/405/en/Groups"},
-"groupings":{"label":"Agrupamentos","url":"https://docs.moodle.org/405/en/Groupings"},
-"competencies":{"label":"Competências","url":"https://docs.moodle.org/405/en/Competencies"}
+"settings":{"label":"Tarefa: configuração (visão geral em PT-BR)","url":"https://docs.moodle.org/all/pt_br/Atividade_Tarefa#Como_configurar_a_atividade_tarefa?"},
+"overview":{"label":"Atividade Tarefa (PT-BR)","url":"https://docs.moodle.org/all/pt_br/Atividade_Tarefa"},
+"use":{"label":"Tarefa: funcionamento (PT-BR)","url":"https://docs.moodle.org/all/pt_br/Atividade_Tarefa#Como_funciona?"},
+"faq":{"label":"Atividade Tarefa (visão geral em PT-BR)","url":"https://docs.moodle.org/all/pt_br/Atividade_Tarefa"},
+"rubric":{"label":"Rubrica na Tarefa (visão geral em PT-BR)","url":"https://docs.moodle.org/all/pt_br/Atividade_Tarefa#Como_configurar_a_atividade_tarefa?"},
+"guide":{"label":"Métodos de avaliação (visão geral em PT-BR)","url":"https://docs.moodle.org/all/pt_br/Funcionalidades#Resultados_e_rubricas"},
+"points":{"label":"Notas e avaliação (PT-BR)","url":"https://docs.moodle.org/all/pt_br/Guia_r%C3%A1pido_do_professor#Avaliando"},
+"scales":{"label":"Notas e escalas na Tarefa (visão geral em PT-BR)","url":"https://docs.moodle.org/all/pt_br/Atividade_Tarefa"},
+"completion":{"label":"Conclusão da atividade (PT-BR)","url":"https://docs.moodle.org/all/pt_br/Rastreamento_de_progresso#Conclus%C3%A3o_da_atividade"},
+"access":{"label":"Restrições de acesso (PT-BR)","url":"https://docs.moodle.org/all/pt_br/Guia_r%C3%A1pido_do_professor#Restringindo_acesso"},
+"groups":{"label":"Grupos e agrupamentos (PT-BR)","url":"https://docs.moodle.org/all/pt_br/Agrupando_usu%C3%A1rios"},
+"groupings":{"label":"Grupos e agrupamentos (PT-BR)","url":"https://docs.moodle.org/all/pt_br/Agrupando_usu%C3%A1rios"},
+"competencies":{"label":"Competências (visão geral em PT-BR)","url":"https://docs.moodle.org/all/pt_br/Rastreamento_de_progresso#Compet%C3%AAncias"}
 },
 "groups":[
 {"id":"entrega","number":1,"name":"Formas de entrega","color":"#225e47","tint":"#eaf1eb","intro":"Comece pelo que o estudante produzirá e pela forma de apresentar esse trabalho.","ids":[1,2,3,4,5]},
@@ -119,7 +119,7 @@ const state={open:new Set(),selected:null,level:null};
 const small=window.matchMedia('(max-width:780px)');
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const pad=n=>String(n).padStart(2,'0');
-const links=ids=>ids.map(id=>{const s=data.sources[id];return `<a href="${s.url}" target="_blank" rel="noopener noreferrer">${escape(s.label)}</a>`}).join('');
+const links=ids=>Array.from(new Map(ids.map(id=>[data.sources[id].url,data.sources[id]])).values()).map(s=>{return `<a href="${s.url}" target="_blank" rel="noopener noreferrer">${escape(s.label)}</a>`}).join('');
 function announce(text){document.getElementById('announcement').textContent=text;}
 function createMap(){
  branches.innerHTML=data.groups.map(g=>`<section class="branch" data-group="${g.id}" style="--branch:${g.color};--tint:${g.tint}"><button type="button" class="level" id="level-${g.id}" aria-expanded="false" aria-controls="cluster-${g.id}"><span><span class="level-meta">Nível ${g.number} · ${g.ids.length} cenários</span><span class="level-name">${escape(g.name)}</span></span><span class="toggle-mark" aria-hidden="true">+</span></button><ul class="cluster" id="cluster-${g.id}" hidden>${g.ids.map(id=>`<li id="item-${id}"><button type="button" class="leaf" id="scenario-${id}" aria-pressed="false" aria-controls="detail"><span class="leaf-id">${pad(id)}</span><span class="leaf-title">${escape(scenarios.get(id).title)}</span></button></li>`).join('')}</ul></section>`).join('');
@@ -182,7 +182,7 @@ function drawWires(){
 document.getElementById('expand-all').addEventListener('click',()=>{data.groups.forEach(g=>setOpen(g,true));drawSoon();announce('Todos os ramos estão abertos.');});
 document.getElementById('collapse-all').addEventListener('click',()=>{state.selected=null;state.level=null;dock.append(panel);data.groups.forEach(g=>setOpen(g,false));updateSelection();renderIntro();placePanel();drawSoon();announce('Todos os ramos foram recolhidos.');});
 document.getElementById('root-node').addEventListener('click',()=>{state.selected=null;state.level=null;updateSelection();renderIntro();placePanel();drawSoon();announce('Visão geral do mapa.');});
-document.getElementById('sources-list').innerHTML=Object.values(data.sources).map(s=>`<li><a href="${s.url}" target="_blank" rel="noopener noreferrer">${escape(s.label)}</a></li>`).join('');
+document.getElementById('sources-list').innerHTML=Array.from(new Map(Object.values(data.sources).map(s=>[s.url,s])).values()).map(s=>`<li><a href="${s.url}" target="_blank" rel="noopener noreferrer">${escape(s.label)}</a></li>`).join('');
 small.addEventListener('change',()=>{placePanel();drawSoon();});window.addEventListener('resize',drawSoon);window.addEventListener('scroll',drawSoon,{passive:true});
 createMap();renderIntro();placePanel();new ResizeObserver(drawSoon).observe(map);drawSoon();
 })();
